@@ -1,0 +1,101 @@
+body {
+    background-color: #9c6cf9;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 550px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #241b39;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 50px     50px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .task-input button {
+    background-color: #9c6cf9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .task-input button:hover {
+    background-color: #8251c1;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6d4da6;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .task-item span {
+    font-size: 14px;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .task-actions .edit-btn,
+  .task-actions .delete-btn {
+    background-color: #9c6cf9;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .task-actions .edit-btn:hover {
+    background-color: #8251c1;
+  }
+  .task-actions .edit-btn:hover{
+    background-color: #dc69f8;
+
+
+  }
+  
+  .task-actions .delete-btn:hover {
+    background-color: #e74c3c;
+  }
+  
